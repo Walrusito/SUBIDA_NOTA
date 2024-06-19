@@ -26,7 +26,7 @@ public class Refrescos extends Producto implements ProductosInterfaz {
     /**
      * Método para actualizar el precio del refresco según el tipo seleccionado.
      */
-    private void actualizarPrecio() {
+    public void actualizarPrecio() {
         if ("Refresco".equals(tipo)) {
             this.precio = precioRefresco;
         } else if ("Agua".equals(tipo)) {
